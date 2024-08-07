@@ -1,0 +1,63 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Style */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Navbar Style */
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background: #333;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    transition: background 0.3s;
+    z-index: 1000;
+}
+
+/* Nav Menu Style */
+.nav-menu {
+    list-style: none;
+    display: flex;
+}
+
+/* Nav Item Style */
+.nav-item {
+    margin: 0 15px;
+}
+
+/* Nav Link Style */
+.nav-link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 15px;
+    transition: color 0.3s, background 0.3s;
+}
+
+/* Hover Effect */
+.nav-link:hover {
+    color: #333;
+    background: #fff;
+    border-radius: 5px;
+}
+
+/* Scrolled Navbar Background */
+.scrolled {
+    background: #555;
+}
+
+/* Sections for Demo */
+section {
+    padding: 100px 20px;
+    height: 100vh;
+}
